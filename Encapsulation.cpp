@@ -79,6 +79,12 @@ int main(){
     //Shape s(10); This will throw error because Shape is pure abstract
 
 }
+/**Lambda - unnamed function, do some functionality without defining a method
+ * [capture-list](parameters)-> return_type{
+ *      Do stuff
+ * }
+ * 
+ */
 /** Abstraction - encapsulating away the complicated implementation details
  * Shape class implements abstraction, because we don't need to know
  * formulas for shapes, only to call the shape name
